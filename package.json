@@ -1,0 +1,18 @@
+{
+  "name": "twitch-spotify-activity",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Twitch chat bot that shows the currently playing Spotify song in the chat by utilizing the Spotify friends activity API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "mikee.dev",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "spotify-buddylist": "github:valeriangalliat/spotify-buddylist",
+    "tmi.js": "^1.8.5"
+  }
+}
